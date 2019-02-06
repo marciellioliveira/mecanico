@@ -1,0 +1,65 @@
+/*
+ Theme Name:   Mh Newdesk Lite Child
+ Theme URI:    http://localhost/www/mecanico/wordpress/mh-newsdesk-lite-child/
+ Description:  Mh Newdesk Lite Child Theme
+ Author:       Marcielli Oliveira
+ Author URI:   https://github.com/marciellioliveira
+ Template:     mh-newsdesk-lite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  mh-newsdesk-lite-child
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;	
+	background-color: white;
+}
+
+#mh-wrapper {
+   position: relative;
+   max-width: 100%;
+   width: 100%; 
+   padding: unset;
+}
+
+/* Header */
+div.logo-wrap {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h1.logo-title {
+	font-size: 0px;
+}
+
+h2.logo-tagline {
+	text-transform: none;
+	font-size: 200%;
+	font-weight: 100;	
+}
+
+/* Menu */
+
+nav.main-nav.mh-clearfix {
+	background-color: #004489;
+}
+
+nav.main-nav.mh-clearfix ul li {
+	border: 2px solid #004489;
+	text-transform: none;
+}
+
+nav.main-nav.mh-clearfix ul li:hover {
+	border: 2px solid #055DA5;
+	background-color: #055DA5;
+}
+
+
+/* Corpo */
+div.mh-section.mh-group {	
+	margin-left: 2%;
+	margin-right: 2%;
+}
+

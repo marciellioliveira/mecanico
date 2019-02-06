@@ -1,0 +1,104 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://localhost/www/mecanico/wordpress/twentysixteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Marcielli Oliveira
+ Author URI:   https://github.com/marciellioliveira
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentysixteen-child
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;	
+	background-color: red;
+}
+
+.site {
+    margin: 0px;
+}
+
+
+p.site-title {
+	font-size: 0px;
+}
+
+p.site-description {
+	font-size: 150%;
+}
+
+
+.main-navigation {
+	background-color: #004489;
+}
+
+.main-navigation ul li:hover {
+	background-color: #055DA5;
+	color: white;
+}
+
+.main-navigation ul li a {
+	color: white;
+}
+
+.main-navigation ul li a:hover {
+	color: white;
+}
+
+
+
+
+
+
+
+
+/* Abaixo é do outro tema */
+
+#mh-wrapper {
+   position: relative;
+   max-width: 100%;
+   width: 100%; 
+   padding: unset;
+}
+
+div.logo-wrap {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h1.logo-title {
+	font-size: 0px;
+}
+
+h2.logo-tagline {
+	text-transform: none;
+	font-size: 200%;
+	font-weight: 100;	
+}
+
+
+
+nav.main-nav.mh-clearfix {
+	background-color: #004489;
+}
+
+nav.main-nav.mh-clearfix ul li {
+	border: 2px solid #004489;
+	text-transform: none;
+}
+
+nav.main-nav.mh-clearfix ul li:hover {
+	border: 2px solid #055DA5;
+	background-color: #055DA5;
+}
+
+
+/* Corpo */
+div.mh-section.mh-group {	
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
