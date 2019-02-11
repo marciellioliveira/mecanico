@@ -63,3 +63,8 @@ div.mh-section.mh-group {
 	margin-right: 2%;
 }
 
+/*Notícias*/
+.elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
+	color: #004489!important;
+	font-size: 150%;
+}
