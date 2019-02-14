@@ -64,7 +64,120 @@ div.mh-section.mh-group {
 }
 
 /*Notícias*/
+
 .elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
 	color: #004489!important;
 	font-size: 150%;
+}
+
+/*Noticia Principal Grande - Bloco Esquerdo*/
+h3.content-lead-title a {
+	font-size: 70%!important;
+}
+
+a.button span { /* Esconde o botão "ver mais" de todas as matérias da página inicial */
+	display: none!important;
+}
+
+hr.mh-separator { /* Esconde o hr de separação das notícias que ficava na parte de baixo */
+	display: none!important;
+}
+
+/* Newsletter */
+label.mailpoet_text_label {
+	padding-bottom: 2%!important;
+	padding-top: 5%!important;	
+}
+
+input.mailpoet_text {
+	width: 100%!important;
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+label.mailpoet_radio_label {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-weight: normal!important;
+}
+
+input.mailpoet_submit {
+	width: 100%!important;
+}
+
+
+/* Contato */
+div.nf-form-fields-required {
+	display: none!important;
+}
+
+span.ninja-forms-req-symbol {
+	color: black!important;
+}
+
+input#nf-field-9.ninja-forms-field.nf-element {	/* Empresa */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+input#nf-field-10.ninja-forms-field.nf-element { /* Cargo */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+select#nf-field-11.ninja-forms-field.nf-element { /* País */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+	height: 113%!important;
+}
+
+select#nf-field-12.ninja-forms-field.nf-element { /* Estado */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+	height: 113%!important;
+}
+
+input#nf-field-13.ninja-forms-field.nf-element { /* Cidade */ 
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+input#nf-field-6.ninja-forms-field.nf-element { /* Email */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+input#nf-field-14.ninja-forms-field.nf-element { /* Telefone */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+input#nf-field-15.ninja-forms-field.nf-element { /* Assunto */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+textarea#nf-field-7.ninja-forms-field.nf-element {	/* Mensagem */
+	border-radius: 5%!important;
+	border: 1px solid #004489!important;
+}
+
+input#nf-field-8.ninja-forms-field.nf-element { /* botão Enviar */
+	background-color: #004489!important;
+	color: white!important;
+	padding: 14px!important;
+	width: 100%!important;
+}
+
+input#nf-field-8.ninja-forms-field.nf-element:hover { /* botão Enviar */
+	background-color: #1F1E1E!important;
+	color: white!important;
+	padding: 14px!important;
+	width: 100%!important;
+	cursor: pointer;
+}
+
+/* Esconder rodapé padrão do tema */
+footer.mh-footer {
+	display: none!important;
 }
